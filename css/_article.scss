@@ -1,0 +1,154 @@
+.page {
+   & + * {
+      margin-top: 6rem;
+   }
+}
+
+.page-body {
+   margin-top: 4rem;
+}
+.article {
+   max-width: 80ch;
+}
+
+.article-header {
+}
+
+.subpage-navigation {
+   padding: 1rem;
+}
+
+.subpage-navigation-link {
+   font-size: 1rem;
+   display: inline-flex;
+   flex-wrap: wrap;
+   align-items: center;
+   font-family: var(--font-family-tertiary);
+   svg {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      & + span {
+         margin-left: 0.5rem;
+      }
+   }
+
+   span {
+      transition: 0.15s ease-in;
+   }
+
+   &:hover {
+      span {
+         transform: translateX(0.375rem);
+      }
+   }
+}
+.article-header-title {
+   font-size: 3rem;
+   line-height: 1.125;
+   position: relative;
+   text-transform: capitalize;
+
+   &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--c-bg-secondary);
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    top: -30px;
+    left: -50px;
+    
+    @include on-breakpoint(tablet-up) {
+        width: 200px;
+        height: 200px;
+        top: -60px;
+        left: -100px;
+    }
+}
+}
+
+.article-header-description {
+   line-height: 1.375;
+   font-size: 1.5rem;
+   margin-top: 1em;
+   color: var(--c-text-secondary);
+   font-weight: 500;
+   & > * + * {
+      margin-top: 1.5em;
+   }
+}
+
+.article-body {
+   font-size: 1.25rem;
+   margin-top: 2em;
+   line-height: 1.6;
+   color: var(--c-text-secondary);
+   font-weight: 500;
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   a {
+      color: var(--c-text-primary);
+   }
+
+   h1 {
+       font-size: 3rem;
+       line-height: 1.125;
+   }
+
+   h2 {
+      font-size: 2rem;
+      line-height: 1.25;
+      background-color: #fff;
+   }
+
+   h3 {
+       font-size: 1.5rem;
+       line-height: 1.375;
+   }
+
+   h4 {
+       font-size: 1.25rem;
+   }
+
+
+   & > * + * {
+      margin-top: 1.5em;
+   }
+
+   & > h2 + *,
+   & > h3 + *,
+   & > h4 + * {
+      margin-top: 0.75em;
+   }
+ 
+   hr { 
+      width: 50px;
+      height: 4px;
+      border: 0;
+      background-color: #ccc;
+      margin-top: 4em;
+      margin-bottom: 4em;
+   }
+
+   a {
+      @include slide-in-hover;
+   }
+
+   blockquote {
+      border-left: 4px solid var(--c-border-primary);
+      padding: 0;
+      padding-left: 1rem;
+   }
+
+   code {
+      font-family: var(--font-family-tertiary);
+   }
+}

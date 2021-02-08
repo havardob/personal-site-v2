@@ -1,0 +1,6 @@
+{
+    "layout": "layouts/post-single.njk",
+    "tags": "posts",
+    "read_more": "Read more",
+    "permalink": "posts/{{ title | slugify }}/"
+} 

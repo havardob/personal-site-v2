@@ -1,0 +1,66 @@
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+   margin: 0;
+}
+
+html {
+   overflow-x: hidden;
+}
+
+body {
+   scroll-behavior: smooth;
+   line-height: 1.5;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+}
+
+a {
+   color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
+
+button {
+   border: 1px solid;
+   background-color: transparent;
+}
+
+button {
+   appearance: none;
+   -webkit-appearance: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+   * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+   }
+}

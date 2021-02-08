@@ -1,0 +1,5 @@
+{
+    "layout": "layouts/post-single.njk",
+    "tags": "projects", 
+    "read_more": "About the project"    
+}

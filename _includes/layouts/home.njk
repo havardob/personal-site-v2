@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+
+{%- for section in collections.sections -%}
+    {% if section.data.section_id == 'hero' %}
+        {% include 'sections/section-hero.njk' %}
+    {% endif %}
+{%- endfor -%}
+
+<main class="main">
+    {%- for section in collections.sections -%}
+        {% if section.data.section_id == 'posts' %}
+            {% include 'sections/section-posts.njk' %}
+        {% elif section.data.section_id == 'projects' %}
+            {% include 'sections/section-projects.njk' %}
+        {% elif section.data.section_id == 'pens' %}
+            {% include 'sections/section-pens.njk' %}
+        {% endif %}
+    {%- endfor -%}
+
+    {% include 'partials/back-to-top.njk' %}
+</main>
+{% include 'partials/footer.njk' %}

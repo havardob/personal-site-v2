@@ -1,0 +1,16 @@
+backend: 
+  name: github
+  repo: havardob/personal-site-v2
+  branch: main
+
+media_folder: img
+collections: 
+ - name: 'post'
+   label: 'Posts'
+   folder: 'posts'
+   create: true
+   fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Read More label", name: "read_more", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
