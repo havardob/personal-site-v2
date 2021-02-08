@@ -3,9 +3,10 @@ backend:
   repo: havardob/personal-site-v2
   branch: main
 
+publish_mode: editorial_workflow  
 media_folder: img
 collections: 
- - name: 'post'
+ - name: 'posts'
    label: 'Posts'
    folder: 'posts'
    create: true

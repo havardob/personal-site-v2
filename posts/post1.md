@@ -17,7 +17,7 @@ secondary role. In this article I’m going to talk about the latter.
 
 ## Web design then vs. now
 
-Web design has evolved a lot in its relatively short life span. We’ve gone from
+Web design has evolved a lot in its relatively short life span. We’ve gone from 
 the classic black-and-white default HTML pages to the colorful, pixelated Comic
 Sans-infused websites of the late 90s, witnessed the rise and fall of
 epilepsy-inducing Flash-websites before we danced our way through the responsive

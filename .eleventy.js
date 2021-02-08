@@ -37,4 +37,5 @@ module.exports = function (eleventyConfig) {
    eleventyConfig.addPassthroughCopy("favicon.svg");
    eleventyConfig.addPassthroughCopy("css");
    eleventyConfig.addPassthroughCopy("js");
+   eleventyConfig.addPassthroughCopy("admin");
 };
