@@ -1,6 +1,8 @@
 ---
 title: Creativity is only impressive when there’s restrictions
-description: Why “form follows function” is a valid design principle in today’s web design landscape.
+description: Why “form follows function” is a valid design principle in today’s
+  web design landscape.
+read_more: Read the full post
 ---
 
 You’ve probably heard the phrase before. It’s a principle which originated in
