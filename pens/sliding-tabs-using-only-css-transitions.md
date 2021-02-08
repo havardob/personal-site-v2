@@ -1,6 +1,9 @@
 ---
 title: Sliding Tabs Using Only CSS Transitions
-description: This Dribbble shot recreation landed the 62nd place in the Most Hearted Pens of 2020 and demonstrates how to create a tab component with a sliding focus effect on click.
+description: This Dribbble shot recreation landed the 62nd place in the Most
+  Hearted Pens of 2020 and demonstrates how to create a tab component with a
+  sliding focus effect on click.
+read_more: Check out this amazing pen
 ---
 
 I'm always trying to create stuff you'd normally would need JavaScript to accomplish with only CSS. My goal is to showcase how powerful CSS is. 
