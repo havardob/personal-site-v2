@@ -5,6 +5,8 @@ description: A small blog built with Eleventy containing a collection of my
   'Most loved one page website distinction' from One Page Love.
 read_more: About the project
 ---
+![](/img/opl-master-3.jpg)
+
 [Go to Noel.fun](https://noel.fun)
 
 ## Backstory
