@@ -15,7 +15,4 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></polyline></svg>
 order: 3
 ---
-
 This is my blog. My brain on paper. Here you'll find a bunch of my writing, some of which has been published to the likes of [UXCollective.cc](https://uxcollective.cc) and [CSS-tricks.com](https://css-tricks.com)
-
-Or maybe you'll be suprised.
