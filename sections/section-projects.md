@@ -15,5 +15,4 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></line></svg>
 order: 2
 ---
-
-Here's some of the stuff I've done, both professionally and personally. 
+Here's some of the stuff I've done, both professionally and personally.
