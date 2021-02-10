@@ -1,7 +1,7 @@
 ---
 layout: sections/section.njk
-title: Projects
-section_id: projects
+title: Work
+section_id: work
 id: projects
 icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256"
