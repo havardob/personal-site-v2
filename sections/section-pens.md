@@ -19,9 +19,8 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></line></svg>
 order: 4
 ---
-
-I'm an avid user of [CodePen](https://codepen.io/havardob) and huge fan of the community. It's become somewhat a hobby of mine to recreate Dribbble shots and explore the possiblities CSS has to offer.
+I'm an avid user of [CodePen](https://codepen.io/havardob) and huge fan of their community. It's become somewhat a daily hobby of mine to recreate Dribbble shots or explore the possiblities CSS that has to offer.
 
 A few of my pens has also been featured in the [CodePen Spark](https://codepen.io/spark) newsletter and in the [The Most Hearted Pens of 2020](https://codepen.io/2020/popular/pens/4).
 
-Here's some of my personal favorites.
+Here are some of my personal favorites.
