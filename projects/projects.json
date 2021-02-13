@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/post-single.njk",
+    "layout": "layouts/project-single.njk",
     "tags": "projects", 
     "read_more": "About the project"    
 }

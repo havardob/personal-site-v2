@@ -3,7 +3,8 @@ backend:
   repo: havardob/personal-site-v2
   branch: main
 
-publish_mode: editorial_workflow  
+local_backend: true
+
 media_folder: img
 collections: 
  - name: 'posts'
@@ -13,5 +14,34 @@ collections:
    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Read More label", name: "read_more", widget: "string"}
+      - {label: "Read More label", name: "read_more", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+ - name: 'projects'
+   label: 'Projects'
+   folder: 'projects'
+   create: true
+   fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Read More label", name: "read_more", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+ - name: 'pens'
+   label: 'Pens'
+   folder: 'pens'
+   create: true
+   fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Read More label", name: "read_more", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+ - name: 'sections'
+   label: 'Sections'
+   folder: 'sections'
+   create: true
+   fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Section ID", name: "section_id", widget: "string"}
+      - {label: "ID attribute", name: "id", widget: "string", required: false}
+      - {label: "Icon SVG code", name: "icon", widget: "string", required: false}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Intro", name: "body", widget: "markdown"}

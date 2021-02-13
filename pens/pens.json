@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/post-single.njk",
+    "layout": "layouts/pen-single.njk",
     "tags": "pens",
     "read_more": "Check it out",    
     "permalink": "pens/{{ title | slugify }}/"

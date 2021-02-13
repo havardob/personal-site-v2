@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts.njk
+layout: layouts/pens.njk
 title: CodePen
 permalink: /pens/
 ---

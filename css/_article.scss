@@ -1,14 +1,26 @@
 .page {
-   & + * {
-      margin-top: 6rem;
+}
+
+.page--landing {
+   margin-top: 10vh;
+}
+
+.page-header {
+   & + .page-body {
+      margin-top: 3rem;
    }
 }
 
 .page-body {
-   margin-top: 4rem;
+   padding-bottom: 6rem;
+   margin-top: 10vh;
 }
-.article {
+.article { 
    max-width: 80ch;
+}
+
+.article-body {
+   
 }
 
 .article-header {
@@ -43,7 +55,7 @@
       }
    }
 }
-.article-header-title {
+.article-header-title, .page-header-title {
    font-size: 3rem;
    line-height: 1.125;
    position: relative;
@@ -106,7 +118,6 @@
    h2 {
       font-size: 2rem;
       line-height: 1.25;
-      background-color: #fff;
    }
 
    h3 {
