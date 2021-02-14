@@ -15,6 +15,7 @@ for (var i = 0; i < themeButtons.length; i++) {
 
 function changeTheme(clicked) {
 	html.className = "";
+	themeToggle.classList.remove('is-open');
 	if (!html.classList.contains(this.id)) {
 		html.classList.add(this.id);
 		localStorage.setItem("theme", this.id);

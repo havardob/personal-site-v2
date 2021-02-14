@@ -15,12 +15,11 @@
    padding-bottom: 6rem;
    margin-top: 10vh;
 }
-.article { 
+.article {
    max-width: 80ch;
 }
 
 .article-body {
-   
 }
 
 .article-header {
@@ -55,50 +54,68 @@
       }
    }
 }
-.article-header-title, .page-header-title {
-   font-size: 3rem;
+.article-header-title,
+.page-header-title {
+   font-size: 1.75rem;
    line-height: 1.125;
    position: relative;
    text-transform: capitalize;
 
+   @include on-breakpoint(tablet-up) {
+      font-size: 4rem;
+   }
+
    &:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 50%;
-    background-color: var(--c-bg-secondary);
-    z-index: -1;
-    width: 100px;
-    height: 100px;
-    top: -30px;
-    left: -50px;
-    
-    @include on-breakpoint(tablet-up) {
-        width: 200px;
-        height: 200px;
-        top: -60px;
-        left: -100px;
-    }
-}
+      content: "";
+      display: block;
+      position: absolute;
+      border-radius: 50%;
+      background-color: var(--c-bg-secondary);
+      z-index: -1;
+      width: 100px;
+      height: 100px;
+      top: -30px;
+      left: -50px;
+
+      .vaporwave-theme & {
+         background-color: transparent;
+         background-image: repeating-linear-gradient(45deg, lightblue, lightblue 2.5%, transparent 2.5%, transparent 5%);
+      }
+
+      @include on-breakpoint(tablet-up) {
+         width: 200px;
+         height: 200px;
+         top: -60px;
+         left: -100px;
+      }
+   }
 }
 
 .article-header-description {
-   line-height: 1.375;
-   font-size: 1.5rem;
+   font-size: 1.125rem;
    margin-top: 1em;
    color: var(--c-text-secondary);
    font-weight: 500;
    & > * + * {
       margin-top: 1.5em;
    }
+   
+   @include on-breakpoint(tablet-up) {
+      font-size: 1.5rem;
+      line-height: 1.375;
+   }
 }
 
 .article-body {
-   font-size: 1.25rem;
+   font-size: 1rem;
    margin-top: 2em;
-   line-height: 1.6;
    color: var(--c-text-secondary);
    font-weight: 500;
+   
+   @include on-breakpoint(tablet-up) {
+      font-size: 1.25rem;
+      line-height: 1.6;
+   }
 
    h1,
    h2,
@@ -111,24 +128,35 @@
    }
 
    h1 {
-       font-size: 3rem;
-       line-height: 1.125;
+      font-size: 1.75rem;
+      line-height: 1.125;
+      @include on-breakpoint(tablet-up) {
+         font-size: 3rem;
+      }
    }
 
    h2 {
-      font-size: 2rem;
+      font-size: 1.375rem;
       line-height: 1.25;
+      @include on-breakpoint(tablet-up) {
+         font-size: 2rem;
+      }
    }
 
    h3 {
-       font-size: 1.5rem;
-       line-height: 1.375;
+      font-size: 1.125rem;
+      @include on-breakpoint(tablet-up) {
+         font-size: 1.5rem;
+         line-height: 1.375;
+      }
    }
 
    h4 {
-       font-size: 1.25rem;
+      font-size: 1rem;
+      @include on-breakpoint(tablet-up) {
+         font-size: 1.25rem;
+      }
    }
-
 
    & > * + * {
       margin-top: 1.5em;
@@ -139,8 +167,8 @@
    & > h4 + * {
       margin-top: 0.75em;
    }
- 
-   hr { 
+
+   hr {
       width: 50px;
       height: 4px;
       border: 0;
@@ -156,7 +184,13 @@
    blockquote {
       border-left: 4px solid var(--c-border-primary);
       padding: 0;
-      padding-left: 1rem;
+      padding-left: 1.5em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+   }
+
+   ul, ol {
+      padding-left: 1.25rem;
    }
 
    code {

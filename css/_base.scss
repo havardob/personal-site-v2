@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@300;400&family=Inter:wght@300;400;500;600;700&family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Tinos:ital,wght@1,400;1,700&display=swap');
 
 :root {
    --font-family-primary: "Inter", sans-serif;
    --font-family-secondary: "Fraunces", serif;
    --font-family-tertiary: "Space Mono", monospace;
-
+   
    --c-text-primary: #000;
    --c-text-secondary: #515e72;
    --c-link-primary: #ffe227;
    --c-bg-primary: #fff;
    --c-bg-secondary: #eee;
    --c-border-primary: #ccc;
-
+   
    &.dark-theme {
       --c-text-primary: #fff;
       --c-text-secondary: #ccc;
@@ -19,6 +20,19 @@
       --c-bg-primary: #000;
       --c-bg-secondary: #6200ff;
       --c-border-primary: #343434;
+   }
+   
+   &.vaporwave-theme {
+      --font-family-primary: "Tinos", serif;
+      --font-family-secondary: "Tinos", serif;
+      --font-family-tertiary: "Tinos", serif;
+      --c-text-primary: #c1ffff;
+      --c-text-secondary: #c1ffff;
+      --c-bg-primary: transparent;
+      --c-bg-secondary: #d3d3d3;
+      --c-link-primary: hotpink;
+      --c-border-primary: cyan;
+      font-size: 18px;
    }
 
    // --c-text-primary: #fff;
@@ -46,6 +60,19 @@ body {
    font-family: var(--font-family-primary);
    color: var(--c-text-primary);
    background-color: var(--c-bg-primary);
+   .vaporwave-theme & {
+      text-shadow: .125em .125em .125em hotpink;
+      background-image: linear-gradient(to right, hotpink, #00c9c9);
+      background-position: top left;
+      background-size: 200%;
+      animation: animate-background 20s infinite;
+   }
+}
+
+@keyframes animate-background {
+   50% {
+      background-position: bottom right;
+   }
 }
 
 button {
@@ -86,12 +113,19 @@ h6 {
    display: flex;
    align-items: stretch;
    min-height: 100vh;
+   .vaporwave-theme & {
+      background-image: url('../img/david.png');
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: 30vh;
+   }
 }
 
 .sidebar {
    border-right: 1px solid var(--c-border-primary);
    padding: 0.75rem 1rem;
    position: relative;
+   background-color: var(--c-bg-primary);
 
    @include on-breakpoint(tablet-up) {
       padding: 1rem 1.5rem;
@@ -118,7 +152,6 @@ h6 {
    margin-top: 1rem;
    position: sticky;
    font-weight: 300;
-   z-index: -1;
    span {
       position: absolute;
       top: 0;
@@ -197,6 +230,11 @@ h6 {
          top: -30px;
          left: -50px;
 
+         .vaporwave-theme & {
+            background-color: transparent;
+            background-image: repeating-linear-gradient(45deg, lightblue, lightblue 2.5%, transparent 2.5%, transparent 5%);
+         }
+
          @include on-breakpoint(tablet-up) {
             width: 200px;
             height: 200px;
@@ -207,13 +245,10 @@ h6 {
    }
 }
 
-.theme-toggle {
+.theme-toggle, .theme-picker {
    border: 0;
    padding: 0;
    border-radius: 50%;
-   position: absolute;
-   top: 1.5rem;
-   right: 1.5rem;
    background-color: var(--c-bg-secondary);
    color: var(--c-text-primary);
    width: 48px;
@@ -251,6 +286,26 @@ h6 {
       }
    }
 
+   &:focus {
+      outline: 2px solid transparent;
+      box-shadow: 0 0 0 2px currentColor;
+   }
+
+   .vaporwave-theme & {
+      --c-text-primary: #454545;
+      border-radius: 0;
+      border-left: 2px solid #FFF;
+      border-top: 2px solid #FFF;
+      border-bottom: 2px solid gray;
+      border-right: 2px solid gray;
+   }
+}
+
+.theme-toggle {
+   position: absolute;
+   top: 1.5rem;
+   right: 1.5rem;
+
    &.is-open {
       & + .theme-options {
          width: auto;
@@ -259,6 +314,11 @@ h6 {
          overflow: visible;
       }
    }
+}
+
+.theme-picker {
+   position: relative;
+   margin-bottom: .5rem;
 }
 
 .theme-options {
@@ -271,50 +331,6 @@ h6 {
    transition: 0.25s ease;
 }
 
-.theme-picker {
-   border: 0;
-   padding: 0;
-   border-radius: 50%;
-   background-color: var(--c-bg-secondary);
-   color: var(--c-text-primary);
-   width: 48px;
-   height: 48px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   z-index: 99;
-   margin-bottom: 0.5rem;
-   position: relative;
-   svg {
-      width: 28px;
-      max-height: 100%;
-   }
-
-   &:before {
-      content: attr(aria-label);
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: scale(0) translateX(calc(-100% - 0.5rem)) translateY(-50%);
-      z-index: 10;
-      white-space: nowrap;
-      background-color: var(--c-bg-secondary);
-      padding: 0.25em 1em;
-      border-radius: 99em;
-      opacity: 0;
-      transition: opacity 0.25s ease;
-   }
-
-   &:hover,
-   &:focus {
-      &:before {
-         transform: scale(1) translateX(calc(-100% - 0.5rem)) translateY(-50%);
-         opacity: 1;
-      }
-   }
-}
-
 .section {
    display: flex;
    align-items: stretch;
@@ -322,7 +338,7 @@ h6 {
    border-top: 1px solid var(--c-border-primary);
    position: relative;
    z-index: 1;
-   background-color: var(--c-bg-primary);
+   // background-color: var(--c-bg-primary);
 }
 
 .section-body {
@@ -379,6 +395,32 @@ h6 {
    }
 }
 
+.section-actions {
+   margin-top: 5rem;
+   a {
+      display: inline-block;
+      border: 2px solid var(--c-text-primary);
+      color: var(--c-text-primary); 
+      text-decoration: none;
+      font-family: var(--font-family-tertiary);
+      padding: .625em 1.5em;
+      &:hover {
+         background-color: var(--c-link-primary);
+      }
+
+      .vaporwave-theme & {
+         --c-text-primary: #454545;
+         text-shadow: none;
+         background-color: var(--c-bg-secondary);
+         border-radius: 0;
+         border-left: 2px solid #FFF;
+         border-top: 2px solid #FFF;
+         border-bottom: 2px solid gray;
+         border-right: 2px solid gray;
+      }
+   }
+}
+
 .article-list {
 }
 
@@ -421,8 +463,6 @@ h6 {
 .article-list-item-permalink {
    margin-top: 1rem;
    display: inline-flex;
-   flex-wrap: wrap;
-   align-items: center;
    font-family: var(--font-family-tertiary);
 
    font-size: 1rem;
@@ -548,8 +588,6 @@ h6 {
 .project-list-item-permalink {
    margin-top: auto;
    display: inline-flex;
-   flex-wrap: wrap;
-   align-items: center;
    font-family: var(--font-family-tertiary);
 
    font-size: 1rem;

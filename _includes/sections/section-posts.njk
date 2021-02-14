@@ -1,4 +1,4 @@
-<section class="section" {%- if section.data.id -%} id="{{ section.data.id }}" {%- endif -%}> 
+<section class="section" {%- if section.data.id -%} id="{{ section.data.id }}" {%- endif -%}>
     <div class="sidebar">
         <h1 class="sidebar-title">
             <span>
@@ -7,14 +7,17 @@
             </span>
         </h1>
     </div>
-<div class="section-body">
-    <div class="container section-columns">
-        <div class="section-intro">
-            {{ section.data.content | safe }}
-        </div>
-        <div class="section-content">
-            {% include "partials/postlist.njk" %}
+    <div class="section-body">
+        <div class="container section-columns">
+            <div class="section-intro">
+                {{ section.data.content | safe }}
+            </div>
+            <div class="section-content">
+                {% include "partials/postlist.njk" %}
+                <div class="section-actions">
+                    <a href="/posts/">More posts</a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 </section>
