@@ -256,7 +256,6 @@ h6 {
    display: flex;
    align-items: center;
    justify-content: center;
-   z-index: 99;
    svg {
       width: 28px;
       max-height: 100%;
@@ -305,6 +304,7 @@ h6 {
    position: absolute;
    top: 1.5rem;
    right: 1.5rem;
+   z-index: 99;
 
    &.is-open {
       & + .theme-options {
@@ -328,6 +328,7 @@ h6 {
    position: absolute;
    right: 1.5rem;
    top: 1.5rem;
+   z-index: 99;
    transition: 0.25s ease;
 }
 
