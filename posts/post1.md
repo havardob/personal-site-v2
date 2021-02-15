@@ -16,4 +16,4 @@ secondary role. In this article I’m going to talk about the latter (...)
 
 *This post was originally posted to the UXCollective.cc on Medium.*
 
-[Read the full article on the UXCollective](https://uxdesign.cc/creativity-is-only-impressive-when-theres-restrictions-d33b83855ce1)
+[Read the whole article at the UXCollective](https://uxdesign.cc/creativity-is-only-impressive-when-theres-restrictions-d33b83855ce1)
