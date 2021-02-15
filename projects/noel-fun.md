@@ -20,7 +20,7 @@ They hate it. So, as a joke I told them that I would gather up all the fun facts
 Even though my friends didn't like the website (for obvious reasons as it made me even more powerful now that I can look up fun facts without having to remember them all) some folks did. Rob Hope's website One Page Love awarded me with a "Most Loved One Page' award, which I shamelessly flaunt at the website. 
 
 ## Design
-
+ 
 The idea of the design sprang to mind after I created [this hover effect on CodePen](https://codepen.io/havardob/pen/gOamzGq), which made me realize that I wanted a minimalistic looks on the site, while still showing off some cool effects and stuff.
 
 One of the cool things on this site (and also totally unnecessary) is the 'theme switcher' at the top. Now, as it says on the site this switcher is inspired by [Max Böck's theme switcher](https://mxb.dev/blog/color-theme-switcher/), which he has gained massive praise for. My regret is that I didn't do my own take on it. Even though it's different in terms of approach and code, I think i should've *redesigned* it completely, done something entirely different with it. It looks too much like Max' right now, which in turn looks a lot like [Happy Hues](https://www.happyhues.co/)' theme switcher. 

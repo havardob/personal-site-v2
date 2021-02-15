@@ -20,7 +20,7 @@ function changeTheme(clicked) {
 		html.classList.add(this.id);
 		localStorage.setItem("theme", this.id);
 	} else {
-		html.classList.remove(this.id);
+		html.classList.remove(this.id); 
 	} 
 }
 
