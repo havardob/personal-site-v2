@@ -12,8 +12,6 @@ When you’ve named your product you’ll have to create a logo. Pick a sans-ser
 
 ![](/img/bold.jpeg "Perfect")
 
-
-
 ## 2. Start with the header
 
 Pop in that gorgeous logo from step 1 and add some navigation elements. Make sure not to create any visual clues that these are interactive. Underlining your links? Forget about it, nobody likes that.
@@ -69,8 +67,6 @@ Your site is almost complete. Now for the finishing touches.
 Skeuomorphism is dead. Flat design is dead. This is something else. Elevate your design. Add shadows to all your elements. A lot of shadows. Make sure your blur-radius is well into the double digits.
 
 ![](/img/1_iu7fl-sseploiqmqut6u9g-2x.jpeg)
-
-<iframe src="https://giphy.com/embed/J2h8xB7Q5wFDligq9k" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Friends-season-5-episode-110-the-one-with-joeys-bag-J2h8xB7Q5wFDligq9k">via GIPHY</a></p>
 
 # 9. Create a fake browser
 
