@@ -1,6 +1,7 @@
 ---
 title: "How to design a Dribbble-worthy landing page in 10 simple steps "
-description: Improve your portfolio with fictional product pages [satire]
+description: Improve your portfolio with fictional product pages.
+read_more: Read more
 ---
 Have you ever browsed Dribbble or Behance and spotted a landing page with jaw-dropping illustrations and beautiful colors and wondered: “Why can’t I create something like that?”. Well, I’m here to tell you that you totally can!
 You just have to follow these simple steps:
