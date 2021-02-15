@@ -3,6 +3,8 @@ title: Unicorn — personal branding
 description: It's the least humble thing in the world, calling yourself a
   'unicorn', but that's what a designer who codes is supposedly called.
 ---
+![](/img/unicorn.jpg)
+
 ## Background
 
 I'm torn between using my name as an identifier for my personal site or whether or not I should have a brand, a logo of some sort. I'm not a business or a freelance developer, so a personal brand feels like an overkill. 
