@@ -62,13 +62,13 @@ Top it off by adding the classic Four Column Footer Sitemap Thingy™ at the bot
 
 Your site is almost complete. Now for the finishing touches.
 
-# 8. Let your design pop
+## 8. Let your design pop
 
 Skeuomorphism is dead. Flat design is dead. This is something else. Elevate your design. Add shadows to all your elements. A lot of shadows. Make sure your blur-radius is well into the double digits.
 
 ![](/img/1_iu7fl-sseploiqmqut6u9g-2x.jpeg)
 
-# 9. Create a fake browser
+## 9. Create a fake browser
 
 Nobody wants to see how the website will look like in reality. Create a fake browser without all the browser stuff. No scrollbars, no bookmarks, no tabs, no nothing. Just a white container with border-radius and shadow.
 
@@ -80,7 +80,7 @@ Enjoy your finished product.
 
 **Bonus tip:** Open your design in Adobe After Effects and add some nice animations to each element. The more moving objects the better.
 
-# 10. Post to Dribbble
+## 10. Post to Dribbble
 
 It’s time to upload your finished product to Dribbble. Realize that you don’t have an invite so post it to [Uplabs](https://www.uplabs.com/) instead.
 
