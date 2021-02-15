@@ -15,4 +15,4 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></line></svg>
 order: 2
 ---
-Here's some of the stuff I've done, both professionally and personally.
+Day to day I work as a front-end developer at [ACOS](https://www.acos.no), but here's some of the stuff I've done personally the last year.
