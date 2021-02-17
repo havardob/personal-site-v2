@@ -26,4 +26,4 @@ order: 1
 
 UX design enthusiast. Accessibility advocate. CSS lover. 
 
-Sometimes I [create](#projects) stuff. Other times I just [code](#codepen) stuff. Occasionally I even [write](#writing) some stuff. Currently at [ACOS](https://acos.no).
+Sometimes I [create](#projects) stuff. Other times I just [code](#pens) stuff. Occasionally I even [write](#writing) some stuff. Currently at [ACOS](https://acos.no).
