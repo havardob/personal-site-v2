@@ -15,4 +15,4 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-linejoin="round" stroke-width="16"></polyline></svg>
 order: 3
 ---
-This is my blog. Or stories. Or whatever you wanna call it. Here you'll find a bunch of my writing, some of which has been published to the likes of [UXCollective.cc](https://uxdesign.cc/search?q=h%C3%A5vard%20brynjulfsen) on Medium.
+This is my blog. Or stories. Or whatever you wanna call it. Here you'll find a bunch of my writing, some of which has been published to the likes of [UXCollective.cc](https://uxdesign.cc/search?q=h%C3%A5vard%20brynjulfsen) on Medium and [CSS-Tricks](https://css-tricks.com/author/havardbrynjulfsen/).
