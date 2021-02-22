@@ -304,7 +304,7 @@ h6 {
    position: absolute;
    top: 1.5rem;
    right: 1.5rem;
-   z-index: 99;
+   z-index: 100;
 
    &.is-open {
       & + .theme-options {
