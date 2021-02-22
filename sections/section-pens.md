@@ -2,6 +2,7 @@
 layout: sections/section.njk
 title: CodePen
 section_id: pens
+id: pens
 icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256"
   fill="none"></rect><rect x="24" y="56" width="208" height="144" rx="8.48528"
