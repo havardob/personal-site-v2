@@ -1,4 +1,5 @@
 const MarkdownIt = require("markdown-it");
+const { markdownItImageSize } = require("markdown-it-image-size");
 const slugify = require("slugify");
 
 let mdOptions = {
@@ -8,11 +9,14 @@ let mdOptions = {
 };
 
 const mdRenderer = MarkdownIt(mdOptions);
+mdRenderer.use(markdownItImageSize);
 
 module.exports = function (eleventyConfig) {
    eleventyConfig.addFilter("md", function (content) {
       return mdRenderer.render(content);
    });
+
+   eleventyConfig.setLibrary("md", mdRenderer);
 
    // Sort sections based on their order-value
    eleventyConfig.addCollection("sections", function (collectionApi) {
