@@ -2,7 +2,7 @@
 title: Checkbox group styled as tiles
 description: Checkboxes doesn't have to be boring.
 ---
-I find the browsers default checkboxes and radios to be kinda dull, so I spend a lot of time creating my own. Here's an example of this. There's a lot of ways to get a user to interact with you form, and creating these tiles with images or icons is of many ways you can 'redesign' the inputs, while keeping the input's functionality - all of this without Javascript. 
+I find the browser's default checkboxes and radios to be kinda dull, so I spend a lot of time on CodePen creating my own. Here's an example of this. There's a lot of ways to get a user to interact with you form, and creating these tiles with images or icons is of many ways you can 'redesign' these inputs, while still keeping the input's functionality. All of this without Javascript, of course. 
 
 ## The Pen
 
