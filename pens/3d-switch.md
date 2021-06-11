@@ -4,7 +4,7 @@ description: Skeuomorphism is dead - or at least in hibernation. When it
   eventually comes back I'll be ready to create 3D components like this one
   using only CSS.
 ---
-## I'm not a huge fan of skeuomorphism designs in general, but I like the challenge of it. Years ago, when this was the design trend, most designs used background-images and sprites to achieve what we now easily (or maybe not 'easy') can accomplish by using only CSS. 
+I'm not a huge fan of skeuomorphism designs in general, but I like the challenge of it. Years ago, when this was the design trend, most designs used background-images and sprites to achieve what we now easily (or maybe not 'easy') can accomplish by using only CSS.
 
 This pen is a recreation of [this beautiful Dribbble shot](https://dribbble.com/shots/299416-Simple-Switch) by the way. 
 
