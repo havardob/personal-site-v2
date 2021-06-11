@@ -22,8 +22,8 @@ icon: <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192"
   stroke-width="16"></path></svg>
 order: 1
 ---
-# Hi! I'm Håvard Brynjulfsen, <br />a front-end web developer based in Bergen, Norway.
+# Hi! I'm Håvard Brynjulfsen, <br />a front-end web designer based in Bergen, Norway.
 
 UX design enthusiast. Accessibility advocate. CSS lover. 
 
-Sometimes I [create](#projects) stuff. Other times I just [code](#pens) stuff. Occasionally I even [write](#writing) some stuff. Currently at [ACOS](https://acos.no).
+Sometimes I [create](#projects) stuff. Other times I just [code](#pens) stuff. Occasionally I even [write](#writing) some stuff. Currently at [ACOS](https://acos.no), soon to be joining [Bouvet](https://bouvet.no)
